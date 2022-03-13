@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    text-align: center;
+    font: 1em sans-serif;
+}
+
+
+header {
+    height: 150px;
+    padding-top: 75px;
+    font-variant: small-caps;
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div{
+    padding: 20px;
+}
+
+div.midia > iframe {
+    position: relative;
+}
+
+body{
+    background-color: rgb(121, 183, 211);
+    font-size: 1.2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{ 
+    font-size: 2vw;
+    padding: 20px;
+    line-height: 2em;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+section.imagem {
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: inset 4px 4px 10px 0px rgba(121, 183, 211, 0.425);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color:  rgba(121, 183, 211, 0.425);
+    text-shadow: 1px 1px 0px rgba(121, 183, 211, 0.425);
+    
+}
+section#img01 {
+    background-image: url(./imagens/space.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section#img02{
+    background-image: url(./imagens/saturn.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+section#img03 {
+    background-image: url(./imagens/space02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer{
+    padding: 10px;
+}
